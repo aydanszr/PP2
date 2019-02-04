@@ -1,0 +1,11 @@
+/Users/aydan/Desktop/task1/task1/obj/Debug/netcoreapp2.0/task1.csprojAssemblyReference.cache
+/Users/aydan/Desktop/task1/task1/obj/Debug/netcoreapp2.0/task1.csproj.CoreCompileInputs.cache
+/Users/aydan/Desktop/task1/task1/obj/Debug/netcoreapp2.0/task1.AssemblyInfoInputs.cache
+/Users/aydan/Desktop/task1/task1/obj/Debug/netcoreapp2.0/task1.AssemblyInfo.cs
+/Users/aydan/Desktop/task1/task1/bin/Debug/netcoreapp2.0/task1.deps.json
+/Users/aydan/Desktop/task1/task1/bin/Debug/netcoreapp2.0/task1.runtimeconfig.json
+/Users/aydan/Desktop/task1/task1/bin/Debug/netcoreapp2.0/task1.runtimeconfig.dev.json
+/Users/aydan/Desktop/task1/task1/bin/Debug/netcoreapp2.0/task1.dll
+/Users/aydan/Desktop/task1/task1/bin/Debug/netcoreapp2.0/task1.pdb
+/Users/aydan/Desktop/task1/task1/obj/Debug/netcoreapp2.0/task1.dll
+/Users/aydan/Desktop/task1/task1/obj/Debug/netcoreapp2.0/task1.pdb
