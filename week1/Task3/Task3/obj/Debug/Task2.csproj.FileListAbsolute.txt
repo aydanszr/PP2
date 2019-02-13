@@ -1,0 +1,7 @@
+/Users/aydan/PP2/week1/Task3/Task3/obj/Debug/Task2.csprojAssemblyReference.cache
+/Users/aydan/PP2/week1/Task3/Task3/obj/Debug/Task2.csproj.CoreCompileInputs.cache
+/Users/aydan/PP2/week1/Task3/Task3/bin/Debug/Task2.exe.config
+/Users/aydan/PP2/week1/Task3/Task3/bin/Debug/Task2.exe
+/Users/aydan/PP2/week1/Task3/Task3/bin/Debug/Task2.pdb
+/Users/aydan/PP2/week1/Task3/Task3/obj/Debug/Task2.exe
+/Users/aydan/PP2/week1/Task3/Task3/obj/Debug/Task2.pdb

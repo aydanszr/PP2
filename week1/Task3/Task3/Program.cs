@@ -1,28 +1,33 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
+using System;
 
-namespace Task_3
+namespace Task3
 {
-    class Program
+    class MainClass
     {
-        static void Main(string[] args)
+        public static void doublearr(int[] a, int n)
         {
-            int n = int.Parse(Console.ReadLine()); // creating and entering count of numbers
-            List<int> res = new List<int>(); // creating vector to save answer
-            string[] arr = Console.ReadLine().Split(); // creating array and write number with space
-            for (int i = 0; i < n; i++) // go through numbers
+            int[] b = new int[2 * n];   // create new 2times more array
+            int j = 0;                  // j go through 1st array a
+            for (int i = 0; i < 2 * n; i += 2)  // go through even numbers of array b and every element go to a[j]
             {
-                int a = int.Parse(arr[i]);
-                res.Add(a); // double enter of numbers
-                res.Add(a);
+                b[i] = a[j];
+                b[i + 1] = a[j];
+                Console.Write(b[i] + " " + b[i + 1] + " ");     // show every element of b array
+                j++;   // increase j                                       
             }
-
-            for (int i = 0; i < res.Count; i++) // show result with space
-                Console.Write(res[i] + " ");
-            Console.ReadKey(); // system("pause")
         }
+
+        public static void Main(string[] args)
+        {
+            int n = int.Parse(Console.ReadLine());      // add elements and change it to int
+            string[] s = Console.ReadLine().Split();    //read line with space
+            int[] a = new int[n];
+            for (int i = 0; i < n; i++)    //creating new loop
+            {
+                a[i] = int.Parse(s[i]);
+            }
+            doublearr(a, n);          // use a method, where added elements of array and their counting
+                                
     }
 }
