@@ -1,7 +1,6 @@
 ﻿using System;
 using System.IO;
 
-
 namespace Task4
 {
     class Program
@@ -9,7 +8,7 @@ namespace Task4
 
         static void Main(string[] args)
         {
-            string fileName = "task4.txt"; // задаю название файла
+            string fileName = "task4.txt";
             string sourcePath = "/Users/aydan/PP2/week2/task4";         
             string targetPath = "/Users/aydan/PP2/week2/task4/copy"; 
 
