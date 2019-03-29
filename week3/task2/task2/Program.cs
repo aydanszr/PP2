@@ -7,11 +7,11 @@ namespace Task2
     {
         static void Main(string[] args)
         {
-            far FarManager = new far();                                         //create new FarManager
+            far FarManager = new far();                                         
             FarManager.Start("/Users/aydan/Desktop/example");                    //call with adress
         }
     }
-    class far                                                                   //create new class
+    class far                                                                   
     {
         public int cursor;
         public int size;
@@ -21,7 +21,7 @@ namespace Task2
             cursor = 0;
             ok = true;
         }
-        public void Delete(FileSystemInfo fs)                                   //delete file command - DELETE
+        public void Delete(FileSystemInfo fs)                                   //delete file command
         {
             if (fs.GetType() == typeof(DirectoryInfo))
                 Directory.Delete(fs.FullName, true);                                //delete even this directory consist something

@@ -169,7 +169,7 @@ namespace Task1
     {
         static void Main(string[] args)
         {
-            string path = "/Users/aydan/desktop/example";
+            string path = "/Users/aydan/desktop/с++";
             FarManager FM = new FarManager(path);
             FM.Start();
         }

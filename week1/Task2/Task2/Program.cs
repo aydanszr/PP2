@@ -23,7 +23,7 @@ namespace task1
     {
         static void Main(string[] args)
         {
-            Student s = new Student("Aydan", "18BD110875");
+            Student s = new Student("Aydan", "18BD1234567");
             s.PrintInfo();
         }
     }
